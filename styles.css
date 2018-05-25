@@ -14,34 +14,43 @@ H1{
     font-size:35px;
     color : rgb(17, 140, 223);
     font-weight:150;
-    border:1px solid rgb(17, 140, 223);
+    border:1px solid rgb(193,239,250);
     border-radius: 3%;
-    background-color:rgb(224, 224, 224);
+    background-color:rgba(224, 224, 224, 0);
 }
     
 h1{
-        font-size : 35px ;
+        font-size : 42px ;
         color : rgb(17, 140, 223);
         font-weight:150;
-     
+        font-family :  Helvetica; 
         border-radius: 3%;
        
     }
+
+h4{
+    font-size : 15px;
+}
 #cases{
     font-size : 15px;
     color:black;
-    background-color:rgb(176, 238, 253);
+    background-color:rgb(193, 239, 250);
 
 }
 
 #casesx{
     font-size : 15px;
+    font-weight: bold;
     color:black;
-    background-color:rgb(143, 153, 196);
+    background-color:rgba(17, 141, 223, 0.39);
 }
 #pp{
-    position: absolute;
-    top:30px;
-    bottom:120px;
-    left:600px;
+    position: fixed;
+   
+    top:20px;
+
+}
+
+#liste{
+    font-size:12px;
 }
